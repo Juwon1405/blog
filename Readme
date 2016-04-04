@@ -1,0 +1,16 @@
+http://tutorial.djangogirls.org/ko/django_models/
+
+mkdir djangogirls
+cd djangogirls
+
+python3 -m venv myvenv
+
+sudo apt-get install python-virtualenv
+virtualenv --python=python3.4 myvenv
+
+ 
+ . myvenv/bin/activate // 
+ 
+
+ django-admin startproject mysite .
+ 
